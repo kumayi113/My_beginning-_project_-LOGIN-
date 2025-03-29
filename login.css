@@ -1,0 +1,111 @@
+h2 {
+    font-size: 30px;
+    text-align: left;
+    color: #3a13d4;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: brown;
+}
+
+select {
+    padding: 5px 20px;
+    border-radius: 7px;
+    border: 1.5px solid #787877;
+    font-size: 18px;
+    font-weight: 600;
+    color: #3a13d4;
+    padding: 10px 20px;
+    outline: none;
+}
+
+input {
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 1.5px solid #787877;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    outline: none;
+}
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: url(pic1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+input::placeholder {
+    color: #1c1c18;
+}
+
+.container {
+    min-width: 300px;
+    max-width: 800px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 4em;;
+    
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background: #00000098;
+   
+    
+}
+
+button {
+    padding: 15px 20px;
+    width: 100%;
+    border-radius: 20px;
+    color: #00d9ff;
+    background: transparent;
+    border: 1.5px solid #00d9ff;
+    font-weight: bold;
+    font-size: 20px;
+    transition: .3s ease-in-out;
+}
+
+button:hover {
+    color: #fff;
+    background: #00d9ff;
+    transform: scale(1.05);
+}
+
+.con {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: larger;
+    width: 500px;
+    height: 50px;
+    font-size: 10em;
+    text-decoration: double;
+    
+    
+
+}
+
+label {
+    font-size: 2.5sm;
+    font-weight: bold;
+}
